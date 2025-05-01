@@ -1,3 +1,3 @@
 alpaca-trade-api
-requests
-python-dotenv
+pandas
+ta
