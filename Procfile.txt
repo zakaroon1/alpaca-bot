@@ -1,1 +1,1 @@
-worker: python market_strategy.py
+python market_strategy.py
