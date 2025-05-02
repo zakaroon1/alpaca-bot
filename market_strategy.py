@@ -4,9 +4,7 @@ from ta.trend import EMAIndicator, MACD
 import time
 from datetime import datetime
 
-# إعداد الاتصال بـ Alpaca
-API_KEY = "AKO6DU6L0A1GZ1A5O41U"
-SECRET_KEY = "yQdAkpoj6reThfoLegVyN4iGlm4qmg4PR44exdva"
+
 BASE_URL = "https://api.alpaca.markets"
 api = tradeapi.REST(API_KEY, SECRET_KEY, BASE_URL, api_version='v2')
 
